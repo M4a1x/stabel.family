@@ -1,0 +1,35 @@
+.card-body {
+    padding: 1rem;
+}
+
+.container {
+    max-width: 350px;
+ }
+
+@media (min-width: 576px) {
+    /* default 540px */
+     .container {
+       max-width: 540px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    /* default 720px */
+    .container {
+    max-width: 720px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    /* default 960px */
+    .container {
+      max-width: 720px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    /* default 1140px */
+    .container {
+      max-width: 720px;
+    }
+  }
